@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\kem\frodokem\frodokem_avx2.dir\Release\frodokem_avx2.lib

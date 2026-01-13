@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\kem\frodokem\frodokem.dir\Release\frodokem.lib

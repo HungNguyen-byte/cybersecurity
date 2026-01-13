@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\open\liboqs\src\kem\kyber\kem_kyber_512.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\kyber\pqcrystals-kyber_kyber512_ref\cbd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\kyber\pqcrystals-kyber_kyber512_ref\indcpa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\kyber\pqcrystals-kyber_kyber512_ref\kem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\kyber\pqcrystals-kyber_kyber512_ref\ntt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\kyber\pqcrystals-kyber_kyber512_ref\poly.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\kyber\pqcrystals-kyber_kyber512_ref\polyvec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\kyber\pqcrystals-kyber_kyber512_ref\reduce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\kyber\pqcrystals-kyber_kyber512_ref\symmetric-shake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\kyber\pqcrystals-kyber_kyber512_ref\verify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\open\liboqs\src\kem\kyber\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{646B737A-B464-343B-9CF8-36B9B5D72D80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

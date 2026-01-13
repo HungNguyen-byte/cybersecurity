@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\kem_classic_mceliece_6688128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\aes256ctr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\benes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\bm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\controlbits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\crypto_int16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\crypto_int32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\crypto_uint16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\crypto_uint32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\crypto_uint64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\gf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\pk_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\root.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\sk_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\synd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\transpose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\classic_mceliece\pqclean_mceliece6688128f_clean\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\open\liboqs\src\kem\classic_mceliece\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{646B737A-B464-343B-9CF8-36B9B5D72D80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

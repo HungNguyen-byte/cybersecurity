@@ -1,0 +1,12 @@
+D:\open\liboqs\src\sig\sphincs\sig_sphincs_shake_192f_simple.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\sig_sphincs_shake_192f_simple.obj
+D:\open\liboqs\src\sig\sphincs\pqclean_sphincs-shake-192f-simple_clean\address.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\address.obj
+D:\open\liboqs\src\sig\sphincs\pqclean_sphincs-shake-192f-simple_clean\context_shake.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\context_shake.obj
+D:\open\liboqs\src\sig\sphincs\pqclean_sphincs-shake-192f-simple_clean\fors.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\fors.obj
+D:\open\liboqs\src\sig\sphincs\pqclean_sphincs-shake-192f-simple_clean\hash_shake.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\hash_shake.obj
+D:\open\liboqs\src\sig\sphincs\pqclean_sphincs-shake-192f-simple_clean\merkle.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\merkle.obj
+D:\open\liboqs\src\sig\sphincs\pqclean_sphincs-shake-192f-simple_clean\sign.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\sign.obj
+D:\open\liboqs\src\sig\sphincs\pqclean_sphincs-shake-192f-simple_clean\thash_shake_simple.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\thash_shake_simple.obj
+D:\open\liboqs\src\sig\sphincs\pqclean_sphincs-shake-192f-simple_clean\utils.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\utils.obj
+D:\open\liboqs\src\sig\sphincs\pqclean_sphincs-shake-192f-simple_clean\utilsx1.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\utilsx1.obj
+D:\open\liboqs\src\sig\sphincs\pqclean_sphincs-shake-192f-simple_clean\wots.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\wots.obj
+D:\open\liboqs\src\sig\sphincs\pqclean_sphincs-shake-192f-simple_clean\wotsx1.c;D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.dir\Release\wotsx1.obj

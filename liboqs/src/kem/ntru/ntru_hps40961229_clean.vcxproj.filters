@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\kem_ntru_hps40961229.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\cmov.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\crypto_sort_int32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\kem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\owcpa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\pack3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\packq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\poly.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\poly_lift.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\poly_mod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\poly_r2_inv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\poly_rq_mul.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\poly_s3_inv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\sample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\kem\ntru\pqclean_ntruhps40961229_clean\sample_iid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\open\liboqs\src\kem\ntru\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{646B737A-B464-343B-9CF8-36B9B5D72D80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\kem\kyber\kyber_512_ref.dir\Release\kyber_512_ref.lib

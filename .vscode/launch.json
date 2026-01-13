@@ -1,0 +1,77 @@
+// .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run AES (GCC)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [
+        "encrypt",
+        "input.txt",
+        "output.enc",
+        "cbc"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+      "preLaunchTask": "Build AES CLI (GCC)"
+    },
+    {
+      "name": "Run AES (Clang)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [
+        "encrypt",
+        "input.txt",
+        "output.enc",
+        "cbc"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\lldb.exe",
+      "preLaunchTask": "Build AES CLI (Clang)"
+    },
+    {
+      "name": "Run AES (MSVC)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [
+        "encrypt",
+        "input.txt",
+        "output.enc",
+        "cbc"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "externalConsole": true,
+      "preLaunchTask": "Build AES CLI (MSVC)"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/open",
+      "program": "d:/open/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

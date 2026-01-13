@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\sig\falcon\falcon_512_avx2.dir\Release\falcon_512_avx2.lib

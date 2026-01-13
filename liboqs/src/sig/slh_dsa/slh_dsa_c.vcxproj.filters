@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\slh_dsa_c\sha2_256.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\slh_dsa_c\sha2_512.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\slh_dsa_c\sha3_api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\slh_dsa_c\sha3_f1600.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\slh_dsa_c\slh_dsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\slh_dsa_c\slh_prehash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\slh_dsa_c\slh_sha2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\slh_dsa_c\slh_shake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_224\slh_dsa_sha2_224_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_256\slh_dsa_sha2_256_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_384\slh_dsa_sha2_384_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512\slh_dsa_sha2_512_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_224\slh_dsa_sha2_512_224_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha2_512_256\slh_dsa_sha2_512_256_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_224\slh_dsa_sha3_224_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_256\slh_dsa_sha3_256_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_384\slh_dsa_sha3_384_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_sha3_512\slh_dsa_sha3_512_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_128\slh_dsa_shake_128_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\prehash_shake_256\slh_dsa_shake_256_prehash_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_sha2_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_sha2_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_sha2_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_sha2_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_sha2_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_sha2_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_shake_128f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_shake_128s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_shake_192f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_shake_192s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_shake_256f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\open\liboqs\src\sig\slh_dsa\wrappers\pure\slh_dsa_pure_shake_256s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\open\liboqs\src\sig\slh_dsa\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{646B737A-B464-343B-9CF8-36B9B5D72D80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\kem\ntru\ntru_hps4096821_clean.dir\Release\ntru_hps4096821_clean.lib

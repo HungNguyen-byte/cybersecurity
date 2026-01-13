@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\sig\cross\cross_rsdpg_128_fast_avx2.dir\Release\cross_rsdpg_128_fast_avx2.lib

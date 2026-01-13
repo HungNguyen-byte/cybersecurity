@@ -1,0 +1,9 @@
+D:\open\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\codec.c;D:\open\liboqs\build\src\sig\falcon\falcon_1024_avx2.dir\Release\codec.obj
+D:\open\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\common.c;D:\open\liboqs\build\src\sig\falcon\falcon_1024_avx2.dir\Release\common.obj
+D:\open\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\fft.c;D:\open\liboqs\build\src\sig\falcon\falcon_1024_avx2.dir\Release\fft.obj
+D:\open\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\fpr.c;D:\open\liboqs\build\src\sig\falcon\falcon_1024_avx2.dir\Release\fpr.obj
+D:\open\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\keygen.c;D:\open\liboqs\build\src\sig\falcon\falcon_1024_avx2.dir\Release\keygen.obj
+D:\open\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\pqclean.c;D:\open\liboqs\build\src\sig\falcon\falcon_1024_avx2.dir\Release\pqclean.obj
+D:\open\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\rng.c;D:\open\liboqs\build\src\sig\falcon\falcon_1024_avx2.dir\Release\rng.obj
+D:\open\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\sign.c;D:\open\liboqs\build\src\sig\falcon\falcon_1024_avx2.dir\Release\sign.obj
+D:\open\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\vrfy.c;D:\open\liboqs\build\src\sig\falcon\falcon_1024_avx2.dir\Release\vrfy.obj

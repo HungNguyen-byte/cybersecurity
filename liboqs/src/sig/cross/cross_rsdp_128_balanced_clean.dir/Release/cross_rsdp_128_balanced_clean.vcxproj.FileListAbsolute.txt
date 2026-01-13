@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\sig\cross\cross_rsdp_128_balanced_clean.dir\Release\cross_rsdp_128_balanced_clean.lib

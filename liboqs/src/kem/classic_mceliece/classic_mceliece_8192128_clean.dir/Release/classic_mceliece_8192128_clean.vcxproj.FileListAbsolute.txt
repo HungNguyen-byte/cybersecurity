@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\kem\classic_mceliece\classic_mceliece_8192128_clean.dir\Release\classic_mceliece_8192128_clean.lib

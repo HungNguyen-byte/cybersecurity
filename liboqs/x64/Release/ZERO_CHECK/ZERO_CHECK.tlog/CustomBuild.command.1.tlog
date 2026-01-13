@@ -1,0 +1,10 @@
+^D:\OPEN\LIBOQS\BUILD\CMAKEFILES\F4470E1DA76009986F61BC2D005B0CCD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/open/liboqs -BD:/open/liboqs/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/open/liboqs/build/liboqs.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

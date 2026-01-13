@@ -1,0 +1,12 @@
+D:\open\liboqs\src\sig\uov\sig_uov_ov_III_pkc.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\sig_uov_ov_III_pkc.obj
+D:\open\liboqs\src\sig\uov\pqov_ov_III_pkc_ref\blas_matrix.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\blas_matrix.obj
+D:\open\liboqs\src\sig\uov\pqov_ov_III_pkc_ref\blas_matrix_ref.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\blas_matrix_ref.obj
+D:\open\liboqs\src\sig\uov\pqov_ov_III_pkc_ref\ov.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\ov.obj
+D:\open\liboqs\src\sig\uov\pqov_ov_III_pkc_ref\ov_keypair.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\ov_keypair.obj
+D:\open\liboqs\src\sig\uov\pqov_ov_III_pkc_ref\ov_keypair_computation.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\ov_keypair_computation.obj
+D:\open\liboqs\src\sig\uov\pqov_ov_III_pkc_ref\ov_publicmap.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\ov_publicmap.obj
+D:\open\liboqs\src\sig\uov\pqov_ov_III_pkc_ref\parallel_matrix_op.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\parallel_matrix_op.obj
+D:\open\liboqs\src\sig\uov\pqov_ov_III_pkc_ref\sign.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\sign.obj
+D:\open\liboqs\src\sig\uov\pqov_ov_III_pkc_ref\utils_hash.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\utils_hash.obj
+D:\open\liboqs\src\sig\uov\pqov_ov_III_pkc_ref\utils_prng.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\utils_prng.obj
+D:\open\liboqs\src\sig\uov\pqov_ov_III_pkc_ref\utils_randombytes.c;D:\open\liboqs\build\src\sig\uov\uov_ov_III_pkc_ref.dir\Release\utils_randombytes.obj

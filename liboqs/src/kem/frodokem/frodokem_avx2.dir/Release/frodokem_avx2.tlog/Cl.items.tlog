@@ -1,0 +1,6 @@
+D:\open\liboqs\src\kem\frodokem\external\frodo640aes_avx2.c;D:\open\liboqs\build\src\kem\frodokem\frodokem_avx2.dir\Release\frodo640aes_avx2.obj
+D:\open\liboqs\src\kem\frodokem\external\frodo976aes_avx2.c;D:\open\liboqs\build\src\kem\frodokem\frodokem_avx2.dir\Release\frodo976aes_avx2.obj
+D:\open\liboqs\src\kem\frodokem\external\frodo1344aes_avx2.c;D:\open\liboqs\build\src\kem\frodokem\frodokem_avx2.dir\Release\frodo1344aes_avx2.obj
+D:\open\liboqs\src\kem\frodokem\external\frodo640shake_avx2.c;D:\open\liboqs\build\src\kem\frodokem\frodokem_avx2.dir\Release\frodo640shake_avx2.obj
+D:\open\liboqs\src\kem\frodokem\external\frodo976shake_avx2.c;D:\open\liboqs\build\src\kem\frodokem\frodokem_avx2.dir\Release\frodo976shake_avx2.obj
+D:\open\liboqs\src\kem\frodokem\external\frodo1344shake_avx2.c;D:\open\liboqs\build\src\kem\frodokem\frodokem_avx2.dir\Release\frodo1344shake_avx2.obj

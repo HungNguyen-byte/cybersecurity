@@ -1,0 +1,15 @@
+D:\open\liboqs\src\kem\ntru\kem_ntru_hps2048677.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\kem_ntru_hps2048677.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\cmov.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\cmov.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\crypto_sort_int32.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\crypto_sort_int32.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\kem.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\kem.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\owcpa.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\owcpa.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\pack3.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\pack3.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\packq.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\packq.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\poly.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\poly.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\poly_lift.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\poly_lift.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\poly_mod.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\poly_mod.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\poly_r2_inv.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\poly_r2_inv.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\poly_rq_mul.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\poly_rq_mul.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\poly_s3_inv.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\poly_s3_inv.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\sample.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\sample.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhps2048677_clean\sample_iid.c;D:\open\liboqs\build\src\kem\ntru\ntru_hps2048677_clean.dir\Release\sample_iid.obj

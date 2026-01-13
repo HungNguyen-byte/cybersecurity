@@ -1,0 +1,9 @@
+D:\open\liboqs\src\kem\ml_kem\kem_ml_kem_768.c;D:\open\liboqs\build\src\kem\ml_kem\ml_kem_768_ref.dir\Release\kem_ml_kem_768.obj
+D:\open\liboqs\src\kem\ml_kem\mlkem-native_ml-kem-768_ref\mlkem\src\compress.c;D:\open\liboqs\build\src\kem\ml_kem\ml_kem_768_ref.dir\Release\compress.obj
+D:\open\liboqs\src\kem\ml_kem\mlkem-native_ml-kem-768_ref\mlkem\src\debug.c;D:\open\liboqs\build\src\kem\ml_kem\ml_kem_768_ref.dir\Release\debug.obj
+D:\open\liboqs\src\kem\ml_kem\mlkem-native_ml-kem-768_ref\mlkem\src\indcpa.c;D:\open\liboqs\build\src\kem\ml_kem\ml_kem_768_ref.dir\Release\indcpa.obj
+D:\open\liboqs\src\kem\ml_kem\mlkem-native_ml-kem-768_ref\mlkem\src\kem.c;D:\open\liboqs\build\src\kem\ml_kem\ml_kem_768_ref.dir\Release\kem.obj
+D:\open\liboqs\src\kem\ml_kem\mlkem-native_ml-kem-768_ref\mlkem\src\poly.c;D:\open\liboqs\build\src\kem\ml_kem\ml_kem_768_ref.dir\Release\poly.obj
+D:\open\liboqs\src\kem\ml_kem\mlkem-native_ml-kem-768_ref\mlkem\src\poly_k.c;D:\open\liboqs\build\src\kem\ml_kem\ml_kem_768_ref.dir\Release\poly_k.obj
+D:\open\liboqs\src\kem\ml_kem\mlkem-native_ml-kem-768_ref\mlkem\src\sampling.c;D:\open\liboqs\build\src\kem\ml_kem\ml_kem_768_ref.dir\Release\sampling.obj
+D:\open\liboqs\src\kem\ml_kem\mlkem-native_ml-kem-768_ref\mlkem\src\verify.c;D:\open\liboqs\build\src\kem\ml_kem\ml_kem_768_ref.dir\Release\verify.obj

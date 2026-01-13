@@ -1,0 +1,14 @@
+D:\open\liboqs\src\kem\ntru\kem_ntru_hrss1373.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\kem_ntru_hrss1373.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\cmov.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\cmov.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\kem.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\kem.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\owcpa.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\owcpa.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\pack3.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\pack3.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\packq.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\packq.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\poly.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\poly.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\poly_lift.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\poly_lift.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\poly_mod.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\poly_mod.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\poly_r2_inv.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\poly_r2_inv.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\poly_rq_mul.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\poly_rq_mul.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\poly_s3_inv.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\poly_s3_inv.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\sample.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\sample.obj
+D:\open\liboqs\src\kem\ntru\pqclean_ntruhrss1373_clean\sample_iid.c;D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\sample_iid.obj

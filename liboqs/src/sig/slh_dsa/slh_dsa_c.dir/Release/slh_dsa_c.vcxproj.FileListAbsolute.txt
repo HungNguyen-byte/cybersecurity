@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\sig\slh_dsa\slh_dsa_c.dir\Release\slh_dsa_c.lib

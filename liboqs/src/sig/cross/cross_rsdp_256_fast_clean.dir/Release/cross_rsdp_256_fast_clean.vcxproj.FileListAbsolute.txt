@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\sig\cross\cross_rsdp_256_fast_clean.dir\Release\cross_rsdp_256_fast_clean.lib

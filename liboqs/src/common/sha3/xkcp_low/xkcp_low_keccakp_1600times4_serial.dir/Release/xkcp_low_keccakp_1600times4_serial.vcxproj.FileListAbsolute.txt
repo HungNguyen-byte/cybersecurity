@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\common\sha3\xkcp_low\xkcp_low_keccakp_1600times4_serial.dir\Release\xkcp_low_keccakp_1600times4_serial.lib

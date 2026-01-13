@@ -1,0 +1,6 @@
+D:\open\liboqs\src\sig\cross\upcross_cross-rsdpg-128-balanced_avx2\CROSS.c;D:\open\liboqs\build\src\sig\cross\cross_rsdpg_128_balanced_avx2.dir\Release\CROSS.obj
+D:\open\liboqs\src\sig\cross\upcross_cross-rsdpg-128-balanced_avx2\csprng_hash.c;D:\open\liboqs\build\src\sig\cross\cross_rsdpg_128_balanced_avx2.dir\Release\csprng_hash.obj
+D:\open\liboqs\src\sig\cross\upcross_cross-rsdpg-128-balanced_avx2\merkle.c;D:\open\liboqs\build\src\sig\cross\cross_rsdpg_128_balanced_avx2.dir\Release\merkle.obj
+D:\open\liboqs\src\sig\cross\upcross_cross-rsdpg-128-balanced_avx2\pack_unpack.c;D:\open\liboqs\build\src\sig\cross\cross_rsdpg_128_balanced_avx2.dir\Release\pack_unpack.obj
+D:\open\liboqs\src\sig\cross\upcross_cross-rsdpg-128-balanced_avx2\seedtree.c;D:\open\liboqs\build\src\sig\cross\cross_rsdpg_128_balanced_avx2.dir\Release\seedtree.obj
+D:\open\liboqs\src\sig\cross\upcross_cross-rsdpg-128-balanced_avx2\sign.c;D:\open\liboqs\build\src\sig\cross\cross_rsdpg_128_balanced_avx2.dir\Release\sign.obj

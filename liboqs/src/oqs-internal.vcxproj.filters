@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\open\liboqs\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\open\liboqs\build\src\common\sha3\xkcp_low\xkcp_low_keccakp_1600_plain64.dir\$(Configuration)\KeccakP-1600-opt64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\sha3\xkcp_low\xkcp_low_keccakp_1600times4_serial.dir\$(Configuration)\KeccakP-1600-times4-on1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\aes_impl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\aes_c.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\aes128_ni.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\aes256_ni.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\aes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\sha2_impl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\sha2_c.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\sha2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\xkcp_sha3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\xkcp_sha3x4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\sha3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\sha3x4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\open\liboqs\build\src\common\internal.dir\$(Configuration)\rand_nist.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{C650C003-97A1-3838-9AFA-AB42B78FC295}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

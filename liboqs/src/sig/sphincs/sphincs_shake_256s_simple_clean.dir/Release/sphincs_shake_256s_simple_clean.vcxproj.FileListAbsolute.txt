@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\sig\sphincs\sphincs_shake_256s_simple_clean.dir\Release\sphincs_shake_256s_simple_clean.lib

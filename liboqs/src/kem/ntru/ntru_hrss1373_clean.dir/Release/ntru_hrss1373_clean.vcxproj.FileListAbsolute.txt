@@ -1,0 +1,1 @@
+D:\open\liboqs\build\src\kem\ntru\ntru_hrss1373_clean.dir\Release\ntru_hrss1373_clean.lib
