@@ -3,42 +3,6 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run AES (GCC)",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-      "args": [
-        "encrypt",
-        "input.txt",
-        "output.enc",
-        "cbc"
-      ],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "externalConsole": true,
-      "MIMode": "gdb",
-      "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
-      "preLaunchTask": "Build AES CLI (GCC)"
-    },
-    {
-      "name": "Run AES (Clang)",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-      "args": [
-        "encrypt",
-        "input.txt",
-        "output.enc",
-        "cbc"
-      ],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "externalConsole": true,
-      "MIMode": "lldb",
-      "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\lldb.exe",
-      "preLaunchTask": "Build AES CLI (Clang)"
-    },
-    {
       "name": "Run AES (MSVC)",
       "type": "cppvsdbg",
       "request": "launch",
