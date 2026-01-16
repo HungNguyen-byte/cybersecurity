@@ -52,8 +52,7 @@ extern void decrypt_file_or_folder(const std::string &input_path,
                                    OQS_KEM *kem);
 
 // ---------- Helper functions ----------
-void log_openssl_errors(const char *context)
-{
+void log_openssl_errors(const char *context) {
     unsigned long err;
     while ((err = ERR_get_error()) != 0)
     {
@@ -63,20 +62,17 @@ void log_openssl_errors(const char *context)
     }
 }
 
-void secure_random_bytes(unsigned char *out, size_t len)
-{
+void secure_random_bytes(unsigned char *out, size_t len) {
     OQS_randombytes(out, len);
 }
 
-bytes sha256(const bytes &in)
-{
+bytes sha256(const bytes &in) {
     bytes out(SHA256_DIGEST_LENGTH);
     SHA256(in.data(), in.size(), out.data());
     return out;
 }
 
-bytes hkdf_sha256_derive(const bytes &ikm, const bytes &salt, const bytes &info, size_t out_len)
-{
+bytes hkdf_sha256_derive(const bytes &ikm, const bytes &salt, const bytes &info, size_t out_len) {
     EVP_PKEY_CTX *pctx = EVP_PKEY_CTX_new_id(EVP_PKEY_HKDF, nullptr);
     if (!pctx) throw std::runtime_error("HKDF: cannot create context");
 
@@ -96,8 +92,7 @@ bytes hkdf_sha256_derive(const bytes &ikm, const bytes &salt, const bytes &info,
 
     bytes out(out_len);
     size_t derived_len = out_len;
-    if (EVP_PKEY_derive(pctx, out.data(), &derived_len) <= 0 || derived_len != out_len)
-    {
+    if (EVP_PKEY_derive(pctx, out.data(), &derived_len) <= 0 || derived_len != out_len) {
         log_openssl_errors("HKDF derive");
         EVP_PKEY_CTX_free(pctx);
         throw std::runtime_error("HKDF derivation failed");
@@ -144,31 +139,26 @@ _________________________________________________________
 }
 
 // ---------- Main ----------
-int main()
-{
-    try
-    {
+int main() {
+    try {
         ERR_load_crypto_strings();
         OpenSSL_add_all_algorithms();
 
         const char *kem_name = OQS_KEM_alg_ml_kem_768;
-        if (!OQS_KEM_alg_is_enabled(kem_name))
-        {
+        if (!OQS_KEM_alg_is_enabled(kem_name)) {
             std::cerr << "Error: " << kem_name << " is not enabled in this liboqs build.\n";
             return 1;
         }
 
         OQS_KEM *kem = OQS_KEM_new(kem_name);
-        if (!kem)
-        {
+        if (!kem) {
             std::cerr << "Error: Cannot initialize " << kem_name << "\n";
             return 1;
         }
 
         std::cout << "Loaded KEM: " << kem_name << "\n\n";
 
-        while (true)
-        {
+        while (true) {
             show_menu();
 
             std::string input;
@@ -181,10 +171,9 @@ int main()
                 break;
             }
 
-            switch (choice)
-            {
-            case 1: // Generate keypair
-            {
+            switch (choice) {
+            // Generate keypair
+            case 1: {
                 std::cout << "Generating keypair...\n";
                 bytes pk(kem->length_public_key);
                 bytes sk(kem->length_secret_key);
@@ -201,22 +190,20 @@ int main()
                 break;
             }
 
-            case 2: // Encrypt
-            {
+            // Encryption
+            case 2: {
                 std::cout << "Enter path to file or folder to encrypt: ";
                 std::string path;
                 std::getline(std::cin, path);
                 if (path.empty()) { std::cout << "Cancelled.\n"; break; }
 
-                if (!fs::exists("public.key"))
-                {
+                if (!fs::exists("public.key")) {
                     std::cerr << "Error: public.key not found! Generate keys first.\n";
                     break;
                 }
 
                 bytes pk = read_file("public.key");
-                if (pk.size() != kem->length_public_key)
-                {
+                if (pk.size() != kem->length_public_key) {
                     std::cerr << "Error: public.key is corrupted or wrong size.\n";
                     break;
                 }
@@ -224,26 +211,23 @@ int main()
                 std::cout << "Encrypting... ";
                 std::cout.flush();
                 encrypt_file_or_folder(path, pk, kem);
-                // Message now comes from encrypt.cpp
                 break;
             }
 
-            case 3: // Decrypt
-            {
+            // Decryption
+            case 3: {
                 std::cout << "Enter path to .enc file or encrypted folder: ";
                 std::string path;
                 std::getline(std::cin, path);
                 if (path.empty()) { std::cout << "Cancelled.\n"; break; }
 
-                if (!fs::exists("secret.key"))
-                {
+                if (!fs::exists("secret.key")) {
                     std::cerr << "Error: secret.key not found!\n";
                     break;
                 }
 
                 bytes sk = read_file("secret.key");
-                if (sk.size() != kem->length_secret_key)
-                {
+                if (sk.size() != kem->length_secret_key) {
                     std::cerr << "Error: secret.key is corrupted.\n";
                     break;
                 }
@@ -251,14 +235,15 @@ int main()
                 std::cout << "Decrypting... ";
                 std::cout.flush();
                 decrypt_file_or_folder(path, sk, kem);
-                // Message now comes from decrypt.cpp
                 break;
             }
 
-            case 4: // Show info
+            // Show algorithm info
+            case 4:
                 dump_hybrid_info_yaml(kem_name);
                 break;
 
+            // Invalid choice
             default:
                 std::cout << "Invalid choice. Please try again.\n";
             }
@@ -269,9 +254,7 @@ int main()
         OQS_KEM_free(kem);
         EVP_cleanup();
         ERR_free_strings();
-    }
-    catch (const std::exception &e)
-    {
+    } catch (const std::exception &e) {
         std::cerr << "\nError: " << e.what() << "\n";
         press_enter();
         return 1;

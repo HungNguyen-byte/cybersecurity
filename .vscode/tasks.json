@@ -3,57 +3,6 @@
     "version": "2.0.0",
     "tasks": [
 
-        // ================== GCC ==================
-        {
-            "label": "Build Hybrid Crypto (GCC)",
-            "type": "shell",
-            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
-            "args": [
-                "-std=c++17",
-                "-o", "${fileDirname}\\hybrid_gcc.exe",
-                "${file}",
-                "-I", "D:\\open\\openssl-msvc\\include",
-                "-I", "D:\\open\\liboqs\\include",
-                "-L", "D:\\open\\openssl-msvc\\lib",
-                "-L", "D:\\open\\liboqs\\build\\lib\\Release",
-                "-lssl", "-lcrypto", "-loqs",
-                "-lws2_32", "-lcrypt32", "-luser32"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": ["$gcc"]
-        },
-
-        // ================== CLANG ==================
-        {
-            "label": "Build Hybrid Crypto (Clang)",
-            "type": "shell",
-            "command": "C:\\msys64\\mingw64\\bin\\clang++.exe",
-            "args": [
-                "-std=c++17",
-                "-o", "${fileDirname}\\hybrid_clang.exe",
-                "${file}",
-                "-I", "D:\\open\\opensslcl\\include",
-                "-I", "D:\\open\\liboqs\\include",
-                "-L", "D:\\open\\opensslcl\\lib64",
-                "-L", "D:\\open\\liboqs\\build\\lib\\Release",
-                "-lssl", "-lcrypto", "-loqs",
-                "-lws2_32", "-lcrypt32", "-luser32"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "group": {
-                "kind": "build"
-            },
-            "problemMatcher": ["$gcc"]
-        },
-
         // ================== MSVC ==================
         {
             "label": "Build Hybrid Crypto (MSVC)",

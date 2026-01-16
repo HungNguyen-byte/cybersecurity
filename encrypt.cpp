@@ -29,17 +29,9 @@ extern void secure_random_bytes(unsigned char *out, size_t len);
 extern bytes sha256(const bytes &in);
 extern bytes hkdf_sha256_derive(const bytes &ikm, const bytes &salt, const bytes &info, size_t out_len);
 
-struct AESCipherResult
-{
-    bytes ciphertext;
-    bytes iv;
-    bytes tag;
-};
+struct AESCipherResult {bytes ciphertext; bytes iv; bytes tag;};
 
-AESCipherResult aes_256_gcm_encrypt_with_aad_stream(const bytes& plaintext,
-                                                    const bytes& key,
-                                                    const bytes& aad)
-{
+AESCipherResult aes_256_gcm_encrypt_with_aad_stream(const bytes& plaintext, const bytes& key, const bytes& aad) {
     AESCipherResult result;
     result.iv.resize(12);
     result.tag.resize(16);
@@ -69,8 +61,7 @@ AESCipherResult aes_256_gcm_encrypt_with_aad_stream(const bytes& plaintext,
     for (size_t i = 0; i < plaintext.size(); i += CHUNK) {
         size_t n = std::min(CHUNK, plaintext.size() - i);
         bytes outbuf(n + 64);
-        if (1 != EVP_EncryptUpdate(ctx, outbuf.data(), &len,
-                                   plaintext.data() + i, (int)n)) {
+        if (1 != EVP_EncryptUpdate(ctx, outbuf.data(), &len, plaintext.data() + i, (int)n)) {
             log_openssl_errors("encrypt_update");
             EVP_CIPHER_CTX_free(ctx);
             throw std::runtime_error("Encryption failed");
@@ -86,10 +77,7 @@ AESCipherResult aes_256_gcm_encrypt_with_aad_stream(const bytes& plaintext,
     return result;
 }
 
-void encrypt_file_or_folder(const std::string& input_path,
-                            const bytes& pk,
-                            OQS_KEM* kem)
-{
+void encrypt_file_or_folder(const std::string& input_path, const bytes& pk, OQS_KEM* kem) {
     const std::string version_str = "HYBRID-MLKEM-v1";
     const std::string info_str = "aes256-gcm-key";
     bytes info(info_str.begin(), info_str.end());
@@ -111,13 +99,11 @@ void encrypt_file_or_folder(const std::string& input_path,
     fs::path out_dir = "encrypted";
     fs::create_directory(out_dir);
 
-    if (fs::is_directory(input_path))
-    {
+    if (fs::is_directory(input_path)) {
         // Save KEM ciphertext once
         write_file((out_dir / "kem_ct.bin").string(), kem_ct);
 
-        for (const auto& entry : fs::recursive_directory_iterator(input_path))
-        {
+        for (const auto& entry : fs::recursive_directory_iterator(input_path)) {
             if (!fs::is_regular_file(entry)) continue;
 
             std::string rel_path = fs::relative(entry.path(), input_path).string();
@@ -136,9 +122,7 @@ void encrypt_file_or_folder(const std::string& input_path,
 
             write_file(out_path.string() + ".enc", encrypted_data);
         }
-    }
-    else if (fs::is_regular_file(input_path))
-    {
+    } else if (fs::is_regular_file(input_path)) {
         bytes plaintext = read_file(input_path);
         AESCipherResult enc = aes_256_gcm_encrypt_with_aad_stream(plaintext, aes_key, aad);
 
@@ -150,9 +134,7 @@ void encrypt_file_or_folder(const std::string& input_path,
 
         fs::path out_file = out_dir / (fs::path(input_path).filename().string() + ".enc");
         write_file(out_file.string(), encrypted_data);
-    }
-    else
-    {
+    } else {
         throw std::runtime_error("Input must be a file or directory");
     }
 
