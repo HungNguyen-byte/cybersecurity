@@ -1,5 +1,5 @@
 // main.cpp
-// Compile example (adjusted for split files):
+// Compile:
 // cl /EHsc /std:c++17 main.cpp encrypt.cpp decrypt.cpp ^
 // /I D:\open\liboqs\include ^
 // /I D:\open\openssl-msvc\include ^
@@ -43,19 +43,13 @@ namespace fs = std::experimental::filesystem;
 using bytes = std::vector<unsigned char>;
 
 // ---------- External functions ----------
-extern void encrypt_file_or_folder(const std::string &input_path,
-                                   const bytes &pk,
-                                   OQS_KEM *kem);
-
-extern void decrypt_file_or_folder(const std::string &input_path,
-                                   const bytes &sk,
-                                   OQS_KEM *kem);
+extern void encrypt_file_or_folder(const std::string &input_path, const bytes &pk, OQS_KEM *kem);
+extern void decrypt_file_or_folder(const std::string &input_path, const bytes &sk, OQS_KEM *kem);
 
 // ---------- Helper functions ----------
 void log_openssl_errors(const char *context) {
     unsigned long err;
-    while ((err = ERR_get_error()) != 0)
-    {
+    while ((err = ERR_get_error()) != 0) {
         char buf[256];
         ERR_error_string_n(err, buf, sizeof(buf));
         std::cerr << "[OpenSSL][" << context << "] " << buf << "\n";
@@ -85,10 +79,8 @@ bytes hkdf_sha256_derive(const bytes &ikm, const bytes &salt, const bytes &info,
         throw std::runtime_error("HKDF setup failed");
     }
 
-    if (!salt.empty())
-        EVP_PKEY_CTX_set1_hkdf_salt(pctx, salt.data(), (int)salt.size());
-    if (!info.empty())
-        EVP_PKEY_CTX_add1_hkdf_info(pctx, info.data(), (int)info.size());
+    if (!salt.empty()) EVP_PKEY_CTX_set1_hkdf_salt(pctx, salt.data(), (int)salt.size());
+    if (!info.empty()) EVP_PKEY_CTX_add1_hkdf_info(pctx, info.data(), (int)info.size());
 
     bytes out(out_len);
     size_t derived_len = out_len;
@@ -102,9 +94,8 @@ bytes hkdf_sha256_derive(const bytes &ikm, const bytes &salt, const bytes &info,
     return out;
 }
 
-// ---------- UI Helpers ----------
-void clear_screen()
-{
+// ---------- Interface ----------
+void clear_screen() {
 #ifdef _WIN32
     system("cls");
 #else
@@ -112,15 +103,13 @@ void clear_screen()
 #endif
 }
 
-void press_enter()
-{
-    std::cout << "\nPress Enter to continue...";
+void press_enter() {
+    std::cout << "\n Press Enter to continue...";
     std::cin.ignore(10000, '\n');
     std::cin.get();
 }
 
-void show_menu()
-{
+void show_menu() {
     clear_screen();
     std::cout << R"(
 _________________________________________________________
@@ -185,8 +174,8 @@ int main() {
                 write_file("secret.key", sk);
 
                 std::cout << "Keypair generated!\n";
-                std::cout << "   Public key  : public.key  (" << pk.size() << " bytes)\n";
-                std::cout << "   Secret key  : secret.key  (" << sk.size() << " bytes)\n";
+                std::cout << "Public key : public.key (" << pk.size() << " bytes)\n";
+                std::cout << "Secret key : secret.key (" << sk.size() << " bytes)\n";
                 break;
             }
 
